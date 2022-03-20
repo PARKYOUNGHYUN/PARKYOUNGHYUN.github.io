@@ -30,14 +30,14 @@ body {
 }
 
 #outer {
-  margin: 1% 1%;
+  margin: 1% 0;
+  text-align: center;
 }
 
 nav {
   display: inline-block;
   width: 20%;
   margin-right: 15px;
-  text-align: center;
 }
 
 nav > div {
@@ -69,14 +69,22 @@ img[alt="location-icon"] {
   display: inline-block;
 }
 
-header {
-  width: 77%;
+#outer > div {
+  width: 65%;
   vertical-align: top;
-  text-align: right;
   display: inline-block;
+}
+
+header,
+main {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: right;
 }
 
 header h1 {
@@ -91,4 +99,46 @@ input[name="userName"] {
 
 .hidden {
   display: none;
+}
+
+main {
+  padding: 30px 50px;
+}
+
+main h1,
+main form,
+main ul > li {
+  margin-bottom: 10px;
+}
+
+main h1,
+main ul > li {
+  text-align: left;
+}
+
+main ul {
+  margin: 0 auto;
+  width: 99%;
+}
+
+main li {
+  padding: 5px 0;
+  border-bottom: 1px solid #303030;
+}
+
+main ul h2 {
+  width: 96%;
+  display: inline-block;
+  font-weight: 400;
+}
+
+main ul a {
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+input[name="todo"] {
+  width: 95%;
+  box-sizing: border-box;
 }

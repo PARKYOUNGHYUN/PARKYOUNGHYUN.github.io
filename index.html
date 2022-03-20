@@ -38,16 +38,36 @@
           </div>
         </div>
       </nav>
-      <header>
-        <form>
-          <h1><label for="userName">username : </label></h1>
-          <input type="text" name="userName" required /> <button>login</button>
-        </form>
-        <div>
-          <h1></h1>
-          <button id="logout">logout</button>
-        </div>
-      </header>
+      <div>
+        <header>
+          <form>
+            <h1><label for="userName">username : </label></h1>
+            <input type="text" name="userName" required />
+            <button>login</button>
+          </form>
+          <div>
+            <h1></h1>
+            <button id="logout">logout</button>
+          </div>
+        </header>
+        <main>
+          <h1>TODO LIST</h1>
+          <form>
+            <input type="text" name="todo" required />
+            <button>+</button>
+          </form>
+          <ul>
+            <li>
+              <h2>과제 끝내기</h2>
+              <a>✕</a>
+            </li>
+            <li>
+              <h2>운동하기</h2>
+              <a>✕</a>
+            </li>
+          </ul>
+        </main>
+      </div>
     </div>
     <script src="script/background.js"></script>
     <script src="script/clock.js"></script>
