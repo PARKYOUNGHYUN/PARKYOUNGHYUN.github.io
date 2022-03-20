@@ -42,7 +42,7 @@ function logout() {
   printUserName();
 }
 
-document.addEventListener("submit", registUserName);
+loginForm.addEventListener("submit", registUserName);
 logoutBtn.addEventListener("click", logout);
 
 printUserName();
