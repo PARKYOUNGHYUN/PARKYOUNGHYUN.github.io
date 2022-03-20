@@ -18,7 +18,7 @@ h2 {
 }
 
 body {
-  background-color: coral;
+  background-size: 100% auto;
 }
 
 #outer {
