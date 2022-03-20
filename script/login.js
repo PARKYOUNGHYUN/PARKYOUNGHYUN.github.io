@@ -16,9 +16,11 @@ function printUserName() {
 
     loginForm.classList.add(HIDDEN_CLASS_NAME);
     loginInfo.classList.remove(HIDDEN_CLASS_NAME);
+    main.classList.remove(HIDDEN_CLASS_NAME);
   } else {
     loginForm.classList.remove(HIDDEN_CLASS_NAME);
     loginInfo.classList.add(HIDDEN_CLASS_NAME);
+    main.classList.add(HIDDEN_CLASS_NAME);
   }
 }
 
